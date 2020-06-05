@@ -11,10 +11,7 @@ const Home = () => {
   const navigation = useNavigation();
 
   function handleNavigateToPoints() {
-    navigation.navigate('Points', 
-    uf,
-    city,
-    );
+    navigation.navigate('Points', { uf, city });
   }
     return (
     <KeyboardAvoidingView style={{ flex: 1}} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
