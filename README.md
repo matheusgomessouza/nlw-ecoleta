@@ -1,13 +1,19 @@
 # nlw-ecoleta
- NodeJs, React, React Native, Typescript
+ Ecoleta é um marketplace que ajuda pessoas a encontrar pontos de coleta de resíduos de forma eficiente.
+
+ Ecoleta is an marketplace that helps people to find waste collection points efficiently.
+
+ ⚙️ **Tecnologias utilizadas / Used Technologies**
  
- Tecnologias utilizadas:
- 
-- Express: microframework para lidar com rotas dentro de uma aplicação.
-- SPA: Single Page Aplication, não recarrega, apenas atualiza o conteúdo da página.
-- Insomnia: Programa pra testar rotas do back-end de uma aplicação
-- Knex(Query Builder): Biblioteca que permite trabalhar com bancos de dados SQL com linguagem unificada para todos os bancos (Javascript)
-- C0RS: Define na API quais url web vão ter acesso a ela.
-- Leaflet: API de mapas para a aplicação de cadastro de pontos
-- Axios: Biblioteca que permite requisições para o back end NodeJs (API REST)
-- Expo: is a framework and a platform for universal React applications. It is a set of tools and services built around React Native and native platforms that help you develop, build, deploy, and quickly iterate on iOS, Android, and web apps from the same JavaScript/TypeScript codebase.
+- [Express](https://expressjs.com/)
+- [React Leaflet](https://react-leaflet.js.org/)
+- [Axios](https://axios-http.com/)
+- [Expo](https://expo.dev/)
+- [Node.js](https://nodejs.org/en/)
+- [Sqlite3](https://sqlite.org/index.html)
+- [Typescript](https://www.typescriptlang.org/)
+
+  🚀 **Como rodar o projeto / Running the project**
+
+Rode o servidor na pasta ( Run the server on the folder ) `/server` com `npm dev`
+Rode o front-end na pasta ( Run the frontend on the folder ) `/web` com `npm start`

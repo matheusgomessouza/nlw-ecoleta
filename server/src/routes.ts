@@ -6,7 +6,7 @@ import multerConfig from './config/multer';
  
 import PointsController from './controllers/PointsController';
 import ItemsController from './controllers/ItemsController';
-import Joi from '@hapi/joi';
+import Joi from 'joi';
 
 // Desacoplando as rotas do servidor para um arquivo por meio do 'express.Router()'
 

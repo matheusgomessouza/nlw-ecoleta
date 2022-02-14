@@ -1,16 +1,16 @@
 import React from 'react';
-import { Route, BrowserRouter } from 'react-router-dom';
+import { Route, BrowserRouter, Routes } from 'react-router-dom';
 
-import Home from './pages/Home';
-import CreatePoint from './pages/CreatePoint';
+import { Home } from './pages/Home';
+import { CreatePoint } from './pages/CreatePoint';
 
-const Routes = () => {
-    return (
-        <BrowserRouter>
-            <Route component= { Home } path ="/" exact></Route>
-            <Route component= { CreatePoint } path ="/create-point" ></Route>
-        </BrowserRouter>
-    );
+export function Router() {
+	return (
+		<BrowserRouter>
+			<Routes>
+				<Route element={<Home />} path ="/" />
+				<Route element={<CreatePoint />} path ="/create-point" />
+			</Routes>
+		</BrowserRouter>
+	);
 }
-
-export default Routes;
