@@ -16,15 +16,18 @@
 - [Node.js](https://nodejs.org/en/)
 - [Sqlite3](https://sqlite.org/index.html)
 - [Typescript](https://www.typescriptlang.org/)
+- [ReactJS](https://reactjs.org/)
+- [React Native](https://reactnative.dev/)
 
 ----------------------------------------------------------------------------------------------------------
 
 🚀 **Como rodar o projeto / Running the project**
 
-Rode o servidor na pasta ( Run the server on the folder ) `/server` com `npm dev`
+Rode o servidor na pasta ( Run the server on the folder ) `/server` com ( with ) `npm dev`
 
-Rode o front-end na pasta ( Run the frontend on the folder ) `/web` com `npm start`
+Rode o front-end na pasta ( Run the frontend on the folder ) `/web` com ( with ) `npm start`
 
+Rode o mobile na pasta ( Run the mobile on the folder ) `mobile` com ( with ) Expo![](https://expo.dev/) `expo start`
 
 ----------------------------------------------------------------------------------------------------------
 
